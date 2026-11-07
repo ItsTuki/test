@@ -18,5 +18,3 @@ from bot_logic import gen_pass, flip_coin
 print(gen_pass(10))
 print(flip_coin())
 ```
-
-> **Nota:** `flip_coin()` usa `random.randint(0, 2)`, que da 0, 1 o 2, así que sale "Cruz" dos de cada tres veces. Con `random.randint(0, 1)` queda 50/50.
